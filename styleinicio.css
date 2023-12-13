@@ -239,7 +239,7 @@ a{
 .futer{
     background-color: #141414;
     bottom: 0;
-    width: 100%;
+    width: auto;
     height: 130px;
     text-align: center;
     font-size: medium;
@@ -477,4 +477,3 @@ a{
     bottom: 0;
     margin-top: auto;
 }
-

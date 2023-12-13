@@ -105,8 +105,9 @@ li a.active, li a:hover{
 
 }
 body {
-    height: 100%;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 .cabeza{
     text-align: center;
@@ -148,19 +149,7 @@ a{
     align-content: center;
     text-align: center;
 }
-.custom-alert {
-    position: fixed;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 20px;
-    border-radius: 8px;
-    background-color: #a7a3a3;
-    border: 1px solid #000000;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    z-index: 9999;
-    font-family: 'Montserrat', sans-serif;
-  }
+
 .padre{
     display: flex;
     align-content: center;
@@ -169,6 +158,7 @@ a{
 input{
 width: 450px;
 height: 43px;
+border-radius: 8px;
 
 font-family: 'Montserrat', sans-serif;
 }
@@ -186,14 +176,16 @@ transition: background-color 0.3s,box-shadow 0.5s ease;
 
 .boton:hover{
 background-color: #515050;
-box-shadow: 0 0 10px 3px rgb(155, 85, 85);
+box-shadow: 0 0 10px 3px rgb(0, 0, 0);
+border: 1px solid black;
 }
 
 textarea{
 width: 450px;
 height: 70px;
-
+border-radius: 8px;
 font-family: 'Montserrat', sans-serif;
+
 }
 
 
@@ -221,7 +213,7 @@ font-family: 'Montserrat', sans-serif;
 .futer{
     background-color: #141414;
     bottom: 0;
-    width: 100%;
+    width: auto;
     height: 130px;
     text-align: center;
     font-size: medium;
