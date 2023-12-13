@@ -107,13 +107,11 @@ li a.active, li a:hover{
 
 @media (max-width: 830px){
     .titulo-img{
-        color: black !important;
         font-size: 38px !important;
     }
     .rapha{
-        background-image: none !important; 
-        background-color: white;
-        height: 700px !important;
+        
+        height: 770px !important;
     }
     .carta{
         border: 1.5px solid rgb(185, 184, 184);
@@ -121,7 +119,7 @@ li a.active, li a:hover{
 }
 @media (max-width: 530px){
     .rapha{
-        height: 1000px !important;
+        height: 1050px !important;
     }
     .titulo-img{
         font-size: 30px !important;
